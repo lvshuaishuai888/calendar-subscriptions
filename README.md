@@ -1,6 +1,6 @@
 # 日历订阅 Calendar Subscriptions
 
-独立维护个人使用的 iCalendar（`.ics`）订阅：按年份保存中国大陆节假日与调休补班安排，另设生日纪念日日历目录。
+独立维护个人使用的 iCalendar（`.ics`）订阅：按年份保存中国大陆节假日与调休补班安排，另设农历生日订阅。
 
 ## 2027 年节假日订阅
 
@@ -38,7 +38,8 @@ calendar-subscriptions/
 │       ├── holidays.ics
 │       └── workdays.ics
 └── birthdays/
-    └── README.md
+    ├── README.md
+    └── family-lunar.ics
 ```
 
 ## 后续年份
@@ -49,6 +50,12 @@ calendar-subscriptions/
 
 ## 生日与纪念日
 
-[`birthdays/`](birthdays/README.md) 预留给以后单独维护的生日纪念日日历，目前没有生日数据或可订阅文件。
+[家人农历生日历](birthdays/README.md)覆盖 2026—2035 年，共 50 条全天日程，每年根据农历重新换算公历日期。按普通农历月份庆祝，每年一次，闰月不重复；不设置提醒，建议在 iPhone 中选用紫色。
 
-本仓库公开，提交的姓名、生日和备注会对所有人可见，并可能留存在 Git 历史中。私密生日资料应通过私有存储或仅本地导入方式管理，勿提交到本公开仓库。
+```text
+https://raw.githubusercontent.com/lvshuaishuai888/calendar-subscriptions/main/birthdays/family-lunar.ics
+```
+
+按香港天文台逐年对照表核对，不使用公历每年重复规则。可在“日历 → 添加日历 → 添加订阅日历”中使用上述地址；需要 2036 年及以后日期时，继续补充到同一文件。
+
+生日资料已按确认的公开范围发布，仅使用家庭称呼，不含真实姓名、出生年份或年龄。公开仓库中的生日日期可被任何人查看；今后添加资料前仍需明确公开范围。
