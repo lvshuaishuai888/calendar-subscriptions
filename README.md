@@ -50,7 +50,7 @@ calendar-subscriptions/
 
 ## 生日与纪念日
 
-[家人农历生日历](birthdays/README.md)覆盖 2026—2035 年，共 50 条全天日程，每年根据农历重新换算公历日期。按普通农历月份庆祝，每年一次，闰月不重复；不设置提醒，建议在 iPhone 中选用紫色。
+[家人农历生日历](birthdays/README.md)覆盖 2026—2035 年，共 60 条全天日程，每年根据农历重新换算公历日期。按普通农历月份庆祝，每年一次，闰月不重复；每次生日提前一天上午 09:00（北京时间）提醒一次，建议在 iPhone 中选用紫色。请在该订阅日历设置中打开“日程提醒”。
 
 ```text
 https://raw.githubusercontent.com/lvshuaishuai888/calendar-subscriptions/main/birthdays/family-lunar.ics
